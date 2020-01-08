@@ -1,9 +1,12 @@
 package Cuentas;
 
-//la clase forma parte del paquete cuentas
-//@author Pablo	
-//@version 1.0
-//@since 07/01/2020
+/**
+ * la clase forma parte del paquete cuentas
+ * @author Pablo	
+ * @version 1.0
+ * @since 07/01/2020
+ */
+
 
 public class Main {
 
