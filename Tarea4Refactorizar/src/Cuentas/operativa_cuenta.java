@@ -1,5 +1,8 @@
 package Cuentas;
 
+//la clase forma parte del paquete cuentas
+
+
 public class operativa_cuenta {
 
 
@@ -7,12 +10,18 @@ public class operativa_cuenta {
     private String cuenta;
     private double saldo;
     private double tipoInteres;
-
+    
+//se han encapsulado los atributos de la clase CCuenta que ahora se llama operativa_cuenta
+    
     public operativa_cuenta()
     {
     }
-
+//se ha introducido el método operativa_cuenta, que engloba las sentencias de la clase Main que operan con el objeto cuenta1
+    
     public operativa_cuenta(String nom, String cue, double sal, double tipo, float cantidad)
+    
+//se ha añadido un nuevo parámetro al método operativa_cuenta, de nombre cantidad y de tipo float
+    
     {
         setNombre(nom);
         setCuenta(cue);
