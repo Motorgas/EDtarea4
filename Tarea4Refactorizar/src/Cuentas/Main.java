@@ -1,16 +1,12 @@
 package Cuentas;
 
-/**
- * La clase pertenece al paquete Cuentas
- * @author Sapo PC
- * @version 1.0
- * @since 07/01/2020
- */
-
 public class Main {
 
     public static void main(String[] args) {
-        CCuenta cuenta1;                 
+       /** 
+        * Método Main hemos cambiado el nombre de la variable "miCuenta" por "cuenta1"
+        */
+    	CCuenta cuenta1;             
         double saldoActual;        
 
         cuenta1 = new CCuenta("Antonio Lopez","1000-2365-85-1230456789",2500,0);

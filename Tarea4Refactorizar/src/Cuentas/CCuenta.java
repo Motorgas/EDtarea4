@@ -1,38 +1,50 @@
 package Cuentas;
 
-/**
- * la clase forma parte del paquete cuentas
- * @author Pablo	
- * @version 1.0
- * @since 07/01/2020
- */
 
 
 public class CCuenta {
 
+	/**
+	 * La clase pertenece al paquete Cuentas
+	 * @author PabloOH
+	 * @version 1.0
+	 * @since 07/01/2020
+	 */
 
     private String nombre;
     private String cuenta;
     private double saldo;
     private double tipoInteres;
     
-//se han encapsulado los atributos de la clase CCuenta que ahora se llama operativa_cuenta
+/**
+ * Se han encapsulado los atributos de la clase CCuenta que ahora se llama operativa_cuenta
+ */
     
     public CCuenta()
     {
     }
-//se ha introducido el método operativa_cuenta, que engloba las sentencias de la clase Main que operan con el objeto cuenta1
+/**
+ * se ha introducido el método operativa_cuenta, que engloba las sentencias de la clase Main que operan con el objeto cuenta1
+ * @param nom Nombre del titular
+ * @param cue Número de cuenta del titular
+ * @param sal Saldo disponible
+ * @param tipo Tipo de interés
+ */
     
     public CCuenta(String nom, String cue, double sal, double tipo)
-    
-//se ha añadido un nuevo parámetro al método operativa_cuenta, de nombre cantidad y de tipo float
-    
+    /**
+     *Se ha añadido un nuevo parámetro al método operativa_cuenta, de nombre cantidad y de tipo float
+
+     */
     {
         setNombre(nom);
         setCuenta(cue);
         setSaldo(sal);
     }
-
+/**
+ * 
+ * @return Devuelve el saldo disponible
+ */
     public double estado()
     {
         return getSaldo();
