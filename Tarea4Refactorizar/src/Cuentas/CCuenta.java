@@ -8,7 +8,7 @@ package Cuentas;
  */
 
 
-public class operativa_cuenta {
+public class CCuenta {
 
 
     private String nombre;
@@ -18,12 +18,12 @@ public class operativa_cuenta {
     
 //se han encapsulado los atributos de la clase CCuenta que ahora se llama operativa_cuenta
     
-    public operativa_cuenta()
+    public CCuenta()
     {
     }
 //se ha introducido el método operativa_cuenta, que engloba las sentencias de la clase Main que operan con el objeto cuenta1
     
-    public operativa_cuenta(String nom, String cue, double sal, double tipo, float cantidad)
+    public CCuenta(String nom, String cue, double sal, double tipo)
     
 //se ha añadido un nuevo parámetro al método operativa_cuenta, de nombre cantidad y de tipo float
     
